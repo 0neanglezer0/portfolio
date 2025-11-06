@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { blurDataURLs } from "@/lib/image-utils";
@@ -201,5 +202,3 @@ export async function generateStaticParams() {
     id,
   }));
 }
-
-import React from "react";
