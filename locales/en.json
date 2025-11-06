@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "skipToMain": "Skip to main content"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Gakyung Han",
+    "tagline": "I'm a AI Experience Designer, Education Planner & Marketing Strategist",
+    "viewWork": "See my projects",
+    "aboutMe": "More about me"
+  },
+  "work": {
+    "title": "Work",
+    "viewDetails": "View details"
+  },
+  "about": {
+    "title": "About",
+    "education": "Education",
+    "toolStack": "AI Tool Stack",
+    "downloadResume": "Download Resume"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "함께 사람의 경험을 확장하고, 의미 있는 변화를 만들어가고 싶으시다면 연락 주세요.",
+    "email": "Email",
+    "phone": "Phone",
+    "socialMedia": "Social Media"
+  },
+  "footer": {
+    "credit": "Designed and coded by Gakyung © 2025",
+    "tagline": "Expanding experiences together with AI"
+  }
+}

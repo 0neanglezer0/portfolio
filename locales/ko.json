@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "홈",
+    "work": "작업",
+    "about": "소개",
+    "contact": "연락",
+    "skipToMain": "본문으로 건너뛰기"
+  },
+  "hero": {
+    "greeting": "안녕하세요, 저는",
+    "name": "한가경",
+    "tagline": "AI Experience Designer, Education Planner & Marketing Strategist입니다",
+    "viewWork": "프로젝트 보기",
+    "aboutMe": "더 알아보기"
+  },
+  "work": {
+    "title": "작업",
+    "viewDetails": "자세히 보기"
+  },
+  "about": {
+    "title": "소개",
+    "education": "학력",
+    "toolStack": "AI 도구 스택",
+    "downloadResume": "이력서 다운로드"
+  },
+  "contact": {
+    "title": "연락",
+    "intro": "함께 사람의 경험을 확장하고, 의미 있는 변화를 만들어가고 싶으시다면 연락 주세요.",
+    "email": "이메일",
+    "phone": "전화",
+    "socialMedia": "소셜 미디어"
+  },
+  "footer": {
+    "credit": "Designed and coded by Gakyung © 2025",
+    "tagline": "AI와 함께 경험을 확장합니다"
+  }
+}
