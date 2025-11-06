@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { blurDataURLs } from "@/lib/image-utils";
@@ -67,12 +66,12 @@ const projectsData: Record<string, ProjectData> = {
   },
 };
 
-export default function ProjectPage({
+export default async function ProjectPage({
   params,
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const { id } = React.use(params);
+  const { id } = await params;
   const project = projectsData[id];
 
   if (!project) {
