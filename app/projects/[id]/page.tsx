@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { blurDataURLs } from "@/lib/image-utils";
 
 interface ProjectData {
   id: string;
@@ -117,6 +119,23 @@ export default function ProjectPage({
                 </span>
               ))}
             </div>
+          </div>
+
+          {/* Project Image */}
+          <div className="relative aspect-[3/2] bg-zinc-100 dark:bg-zinc-900 rounded-lg overflow-hidden">
+            <Image
+              src={`/images/projects/${project.id}.jpg`}
+              alt={project.title}
+              fill
+              className="object-cover"
+              placeholder="blur"
+              blurDataURL={blurDataURLs.neutral}
+              onError={(e) => {
+                // If image fails to load, show placeholder
+                const target = e.currentTarget;
+                target.style.display = 'none';
+              }}
+            />
           </div>
 
           {/* Overview */}
