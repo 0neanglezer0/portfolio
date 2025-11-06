@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { blurDataURLs } from "@/lib/image-utils";
 
 interface ProjectData {
   id: string;
@@ -64,12 +66,12 @@ const projectsData: Record<string, ProjectData> = {
   },
 };
 
-export default function ProjectPage({
+export default async function ProjectPage({
   params,
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const { id } = React.use(params);
+  const { id } = await params;
   const project = projectsData[id];
 
   if (!project) {
@@ -117,6 +119,23 @@ export default function ProjectPage({
                 </span>
               ))}
             </div>
+          </div>
+
+          {/* Project Image */}
+          <div className="relative aspect-[3/2] bg-zinc-100 dark:bg-zinc-900 rounded-lg overflow-hidden">
+            <Image
+              src={`/images/projects/${project.id}.jpg`}
+              alt={project.title}
+              fill
+              className="object-cover"
+              placeholder="blur"
+              blurDataURL={blurDataURLs.neutral}
+              onError={(e) => {
+                // If image fails to load, show placeholder
+                const target = e.currentTarget;
+                target.style.display = 'none';
+              }}
+            />
           </div>
 
           {/* Overview */}
@@ -182,5 +201,3 @@ export async function generateStaticParams() {
     id,
   }));
 }
-
-import React from "react";

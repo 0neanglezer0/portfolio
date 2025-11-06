@@ -21,12 +21,15 @@ export default function AboutPage() {
             <div>
               <div className="relative aspect-square bg-zinc-100 dark:bg-zinc-900 max-w-lg">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/profile/profile.jpg"
                   alt="Gakyung Han"
                   fill
                   className="object-cover"
                   placeholder="blur"
                   blurDataURL={blurDataURLs.neutral}
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                  }}
                 />
               </div>
             </div>
