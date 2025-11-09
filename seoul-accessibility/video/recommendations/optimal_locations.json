@@ -1,0 +1,153 @@
+{
+  "scenario_1_geumcheon_hospital": {
+    "district": "금천구",
+    "new_location": {
+      "latitude": 37.45523333333333,
+      "longitude": 126.89883333333333
+    },
+    "current_hospitals": 5,
+    "current_avg_distance_km": 3.06,
+    "new_avg_distance_km": 2.13,
+    "distance_reduction_km": 0.93,
+    "current_score": 6.14,
+    "new_score": 8.58,
+    "improvement_percent": 39.8,
+    "beneficiary_population": 238000,
+    "improved_accessibility_population": 95200
+  },
+  "scenario_2_gangbuk_hospital": {
+    "district": "강북구",
+    "new_location": {
+      "latitude": 37.64293333333333,
+      "longitude": 127.02236666666667
+    },
+    "current_hospitals": 7,
+    "current_avg_distance_km": 1.96,
+    "new_avg_distance_km": 1.36,
+    "distance_reduction_km": 0.59,
+    "current_score": 9.28,
+    "new_score": 12.79,
+    "improvement_percent": 37.8,
+    "beneficiary_population": 313000,
+    "improved_accessibility_population": 125200
+  },
+  "scenario_3_hospital_recommendations": [
+    {
+      "district": "금천구",
+      "current_score": 4.83,
+      "population": 238000,
+      "recommended_location": {
+        "latitude": 37.4519,
+        "longitude": 126.8955
+      },
+      "priority": 1,
+      "expected_improvement": 28.6
+    },
+    {
+      "district": "용산구",
+      "current_score": 7.52,
+      "population": 231000,
+      "recommended_location": {
+        "latitude": 37.5326,
+        "longitude": 126.99
+      },
+      "priority": 2,
+      "expected_improvement": 27.7
+    },
+    {
+      "district": "종로구",
+      "current_score": 10.59,
+      "population": 156000,
+      "recommended_location": {
+        "latitude": 37.573,
+        "longitude": 126.9794
+      },
+      "priority": 3,
+      "expected_improvement": 26.8
+    },
+    {
+      "district": "강북구",
+      "current_score": 11.05,
+      "population": 313000,
+      "recommended_location": {
+        "latitude": 37.6396,
+        "longitude": 127.0257
+      },
+      "priority": 4,
+      "expected_improvement": 26.7
+    },
+    {
+      "district": "중구",
+      "current_score": 13.68,
+      "population": 129000,
+      "recommended_location": {
+        "latitude": 37.5641,
+        "longitude": 126.9979
+      },
+      "priority": 5,
+      "expected_improvement": 25.9
+    }
+  ],
+  "scenario_4_bank_recommendations": [
+    {
+      "district": "강북구",
+      "current_score": 0.8,
+      "population": 313000,
+      "recommended_location": {
+        "latitude": 37.6396,
+        "longitude": 127.0257
+      },
+      "priority": 1,
+      "expected_improvement": 29.8
+    },
+    {
+      "district": "도봉구",
+      "current_score": 2.85,
+      "population": 334000,
+      "recommended_location": {
+        "latitude": 37.6688,
+        "longitude": 127.0471
+      },
+      "priority": 2,
+      "expected_improvement": 29.1
+    },
+    {
+      "district": "금천구",
+      "current_score": 6.39,
+      "population": 238000,
+      "recommended_location": {
+        "latitude": 37.4519,
+        "longitude": 126.8955
+      },
+      "priority": 3,
+      "expected_improvement": 28.1
+    },
+    {
+      "district": "용산구",
+      "current_score": 19.13,
+      "population": 231000,
+      "recommended_location": {
+        "latitude": 37.5326,
+        "longitude": 126.99
+      },
+      "priority": 4,
+      "expected_improvement": 24.3
+    },
+    {
+      "district": "종로구",
+      "current_score": 22.89,
+      "population": 156000,
+      "recommended_location": {
+        "latitude": 37.573,
+        "longitude": 126.9794
+      },
+      "priority": 5,
+      "expected_improvement": 23.1
+    }
+  ],
+  "summary": {
+    "total_scenarios": 4,
+    "total_recommendations": 10,
+    "expected_total_beneficiaries": 220400
+  }
+}
