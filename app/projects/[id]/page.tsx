@@ -130,11 +130,6 @@ export default async function ProjectPage({
               className="object-cover"
               placeholder="blur"
               blurDataURL={blurDataURLs.neutral}
-              onError={(e) => {
-                // If image fails to load, show placeholder
-                const target = e.currentTarget;
-                target.style.display = 'none';
-              }}
             />
           </div>
 

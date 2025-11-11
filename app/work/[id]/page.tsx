@@ -217,9 +217,6 @@ export default async function WorkDetailPage({ params }: { params: Promise<{ id:
               className="object-cover"
               placeholder="blur"
               blurDataURL={blurDataURLs.neutral}
-              onError={(e) => {
-                e.currentTarget.style.display = 'none';
-              }}
             />
           </div>
 
