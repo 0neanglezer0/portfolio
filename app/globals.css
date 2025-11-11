@@ -39,7 +39,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-body), var(--font-display), -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Pretendard Variable", var(--font-display), -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   position: relative;
 }
 
@@ -97,10 +97,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: var(--font-body), var(--font-display), sans-serif;
-  font-weight: 500;
+  font-family: "Pretendard Variable", var(--font-display), sans-serif;
+  font-weight: 400;
   line-height: 1.6;
-  letter-spacing: 0.002em;
+  letter-spacing: -0.01em;
 }
 
 /* Hero title specific - Geometric warmth */

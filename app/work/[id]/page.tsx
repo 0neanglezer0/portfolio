@@ -10,129 +10,145 @@ const experiences = [
   {
     id: "ax-manager",
     title: "AX Manager",
-    titleKR: "AX 매니저",
+    titleKR: "기업 AI 교육 담당 B2B AX Manager",
     categories: ["AI Transformation", "B2B Education"],
     year: "Jul 2025 - Present",
-    company: "Geniefy Inc.",
+    company: "Geniefy Inc. / GPTers",
+    companyKR: "지니파이 주식회사 / GPTers (국내 최대 AI 커뮤니티)",
     location: "Seoul, South Korea",
     description: "Oversaw the implementation of AI transformation initiatives for corporate clients, focusing on both program development and delivery.",
-    descriptionKR: "기업 고객을 위한 AI 혁신 이니셔티브 구현을 감독하며, 프로그램 개발 및 전달에 집중했습니다.",
+    descriptionKR: "기업 고객을 위한 AI 교육 프로그램 기획 및 운영을 총괄하고 있습니다.",
     responsibilities: [
-      "Planned and executed AI transformation programs tailored for enterprise clients in a B2B context",
-      "Designed and executed internal AI workshops and capability assessments to enhance staff proficiency",
-      "Implemented automation of workflows utilizing Claude Code, n8n, and custom GPT tools, improving efficiency in program delivery",
-      "Acted as a liaison between client stakeholders and internal teams to ensure alignment of business goals with educational design",
-      "Created and led an internal AI web workshop that secured 2nd place in a company-wide innovation challenge"
+      "Led SKT AI Frontier 4-8 programs and SK mySUNI customized AI workshops",
+      "Secured 2nd place in company-wide AI workshop competition, pioneering AI-driven innovation cases",
+      "Designed enterprise-tailored AI literacy and automation training programs",
+      "Led GPTers 19th Marketing Automation Study as head facilitator",
+      "Created outbound sales proposal slides and presentation materials"
     ],
     responsibilitiesKR: [
-      "B2B 맥락에서 기업 고객을 위한 맞춤형 AI 혁신 프로그램 기획 및 실행",
-      "직원 역량 향상을 위한 내부 AI 워크숍 및 역량 평가 설계 및 실행",
-      "Claude Code, n8n, 커스텀 GPT 도구를 활용한 워크플로우 자동화 구현으로 프로그램 전달 효율성 향상",
-      "비즈니스 목표와 교육 설계의 일치를 보장하기 위해 고객 이해관계자와 내부 팀 간 연락 담당",
-      "사내 AI 웹 워크숍을 만들고 주도하여 전사 혁신 챌린지에서 2위 달성"
+      "SKT AI Frontier 4-8기 및 SK mySUNI 맞춤형 AI 워크숍 교육 운영 총괄",
+      "사내 AI 워크숍 2등 수상, AI 기반 업무 혁신 사례 발굴",
+      "기업 맞춤형 AI 리터러시 및 자동화 교육 프로그램 기획",
+      "GPTers 19기 마케팅 자동화 스터디장으로서 실습 주도 경험",
+      "아웃바운드 Sales 제안서 슬라이드 제작"
     ],
   },
   {
     id: "account-manager",
-    title: "Account Manager",
-    titleKR: "어카운트 매니저",
+    title: "Marketing Campaign Operator",
+    titleKR: "마케팅 캠페인 운영",
     categories: ["Marketing Automation", "Campaign Design"],
     year: "May 2025 - Jul 2025",
     company: "Bizmatrixx - Insider",
+    companyKR: "비즈매트릭스 (Bizmatrixx)",
     location: "Seoul, South Korea",
-    description: "Supported marketing automation campaigns for enterprise clients (Samsung & LG) using the Insider platform.",
-    descriptionKR: "Insider 플랫폼을 사용하여 대기업 고객(삼성 및 LG)의 마케팅 자동화 캠페인을 지원했습니다.",
+    description: "Designed and operated marketing automation campaigns for Samsung & LG using Insider platform.",
+    descriptionKR: "Insider 솔루션을 활용해 Samsung·LG 캠페인 자동화 시나리오를 설계 및 운영했습니다.",
     responsibilities: [
-      "Planned AI-driven customer segmentation and automated campaign workflows to enhance engagement",
-      "Implemented marketing features through front-end development using JavaScript, CSS, and HTML",
-      "Collaborated with client teams to optimize campaign performance and ensure smooth execution"
+      "Designed and operated Samsung & LG campaign automation scenarios using Insider solution",
+      "Performed customer segmentation, journey design, and retargeting campaign optimization",
+      "Implemented frontend campaigns using JavaScript, CSS, and HTML",
+      "Built n8n-based workflow automation, improving marketing operation efficiency"
     ],
     responsibilitiesKR: [
-      "참여도 향상을 위한 AI 기반 고객 세분화 및 자동화된 캠페인 워크플로우 기획",
-      "JavaScript, CSS, HTML을 사용한 프론트엔드 개발을 통한 마케팅 기능 구현",
-      "캠페인 성과 최적화 및 원활한 실행을 위해 고객 팀과 협업"
+      "Insider 솔루션을 활용해 Samsung·LG 캠페인 자동화 시나리오 설계 및 운영",
+      "고객 세그먼트 설정, 여정 설계, 리타게팅 캠페인 최적화 수행",
+      "JavaScript, CSS, HTML을 활용한 프론트엔드 캠페인 구현",
+      "n8n 기반 업무 자동화 플로우 구축, 마케팅 운영 효율 향상"
     ],
   },
   {
     id: "camp-teacher",
-    title: "Overseas Education Camp Teacher & Program Coordinator",
-    titleKR: "해외 교육 캠프 교사 및 프로그램 코디네이터",
+    title: "Overseas Camp Leader & Program Designer",
+    titleKR: "해외 캠프 인솔교사 & 프로그램 기획 운영",
     categories: ["Education", "Cross-cultural Leadership"],
-    year: "Jul 2023",
+    year: "2023 - 2025 (4 months total)",
     company: "MBC Global Camp",
-    location: "London Area, United Kingdom",
-    description: "Led educational camps for over 300 students across multicultural settings, coordinating logistics, safety, and cross-cultural communication.",
-    descriptionKR: "다문화 환경에서 300명 이상의 학생을 대상으로 교육 캠프를 주도하며 물류, 안전 및 문화 간 커뮤니케이션을 조정했습니다.",
+    companyKR: "㈜MBC연합캠프 (필리핀, 캐나다, 영국)",
+    location: "Philippines, Canada, United Kingdom",
+    description: "Led overseas education camps for 300+ youth across multicultural settings.",
+    descriptionKR: "300명 이상 청소년 대상 해외 캠프 현장 운영 및 프로그램 기획을 담당했습니다.",
     responsibilities: [
-      "Managed educational camps for over 300 students, overseeing all aspects of program delivery and logistics",
-      "Organized cultural exchange initiatives, prioritizing safety and clear communication among participants of varying ages",
-      "Enhanced adaptability and problem-solving abilities while operating within multicultural settings"
+      "Operated on-site overseas camps for cumulative 300+ youth participants",
+      "Designed detailed cultural exchange and communication programs tailored by age and country",
+      "Strengthened crisis response and on-site management capabilities",
+      "Accumulated leadership and teamwork experience in global environments"
     ],
     responsibilitiesKR: [
-      "300명 이상의 학생을 대상으로 한 교육 캠프를 관리하며 프로그램 전달 및 물류의 모든 측면 감독",
-      "다양한 연령의 참가자들 사이에서 안전과 명확한 소통을 우선시하며 문화 교류 이니셔티브 조직",
-      "다문화 환경 내에서 운영하며 적응력 및 문제 해결 능력 향상"
+      "누적 300명 이상 청소년 대상 해외 캠프 현장 운영",
+      "연령·국가별 특성을 고려한 문화 교류·커뮤니케이션 세부 프로그램 설계",
+      "위기 대응·현장 관리 역량 강화",
+      "글로벌 환경에서의 리더십·팀워크 경험 축적"
     ],
   },
   {
     id: "forum-intern",
-    title: "Forum Operations & Speaker Support Intern",
-    titleKR: "포럼 운영 및 연사 지원 인턴",
+    title: "AI Forum Planning Intern",
+    titleKR: "AI/경제 포럼 행사 기획 인턴",
     categories: ["Event Planning", "Speaker Management"],
-    year: "Aug 2023 - Dec 2023",
+    year: "2023 (6 months)",
     company: "MTN (Money Today Network)",
+    companyKR: "MTN 머니투데이방송 (Money Today Network)",
     location: "Seoul, South Korea",
-    description: "Assisted in organizing and executing ESG and AI-focused international forums under the Media Business Division.",
-    descriptionKR: "미디어 비즈니스 부서 산하에서 ESG 및 AI 중심의 국제 포럼 조직 및 실행을 지원했습니다.",
+    description: "Assisted in organizing ESG Economic Forum and Seoul Future Forum (SFF).",
+    descriptionKR: "2023 ESG경제포럼 및 서울퓨처포럼 등 행사 기획 및 진행을 지원했습니다.",
     responsibilities: [
-      "Performed research and outreach to international speakers, utilizing business English for effective communication",
-      "Created and refined presentation decks and event materials that improved message clarity and speaker engagement"
+      "Supported planning and execution of 2023 ESG Economic Forum and Seoul Future Forum (SFF)",
+      "Conducted international speaker research and managed English email communication",
+      "Created and refined presentation slides and design, improving deliverable quality",
+      "Collaborated with internal production team on event video and content archiving"
     ],
     responsibilitiesKR: [
-      "효과적인 커뮤니케이션을 위해 비즈니스 영어를 활용하여 국제 연사에 대한 리서치 및 아웃리치 수행",
-      "메시지 명확성 및 연사 참여를 향상시키는 프레젠테이션 자료 및 행사 자료 제작 및 개선"
+      "2023 ESG경제포럼 / 서울퓨처포럼(SFF) 등 행사 기획 및 진행 지원",
+      "해외 연사 리서치 및 영어 이메일 커뮤니케이션 담당",
+      "PT 슬라이드 제작 및 디자인 교정, 발표자료 품질 향상 기여",
+      "내부 제작팀과 협업하여 행사 영상 및 콘텐츠 아카이브 관리"
     ],
   },
   {
     id: "admissions-creator",
-    title: "Admissions Strategy Content Creator",
-    titleKR: "입학 전략 콘텐츠 제작자",
+    title: "Admissions Strategy Content Lead",
+    titleKR: "입학 전략 콘텐츠 제작 총괄",
     categories: ["Data Visualization", "Content Design"],
     year: "Mar 2022 - Dec 2023",
     company: "Sungkyunkwan University",
+    companyKR: "성균관대학교 입학처",
     location: "Seoul, South Korea",
-    description: "Produced data-driven admission content for Sungkyunkwan University's Office of Admissions.",
-    descriptionKR: "성균관대학교 입학처를 위한 데이터 기반 입학 콘텐츠를 제작했습니다.",
+    description: "Produced data-driven admission strategy content based on 5-year admissions data.",
+    descriptionKR: "최근 5년간 입시 데이터를 기반으로 입학전략설명회 자료를 제작했습니다.",
     responsibilities: [
-      "Analyzed five-year applicant trends and admission score changes by department using regression analysis and data visualization",
-      "Designed and produced over 200 customized presentation slides for admission briefings tailored to different audiences (e.g., parents, vocational and arts high school students)",
-      "Edited promotional and teaser videos, and collaborated with the Student Support Team on content planning and communication strategies"
+      "Produced admission strategy presentation materials based on recent 5-year admissions data",
+      "Created 200+ audience-tailored slides (parents, vocational/arts high school students)",
+      "Participated in admission briefing video and printed material design production",
+      "Collaborated with Student Support Team on department-specific content planning and PR strategy"
     ],
     responsibilitiesKR: [
-      "회귀 분석 및 데이터 시각화를 사용하여 학과별 5년간 지원자 추세 및 입학 점수 변화 분석",
-      "다양한 청중(예: 학부모, 특성화고 및 예술고 학생)을 위한 맞춤형 입학 설명회 프레젠테이션 슬라이드 200장 이상 설계 및 제작",
-      "홍보 및 티저 영상 편집, 학생 지원팀과 콘텐츠 기획 및 커뮤니케이션 전략 협업"
+      "최근 5년간 입시 데이터를 기반으로 입학전략설명회 자료 제작",
+      "청중 맞춤형 발표자료 200장 이상 제작 (학부모·특성화고·예고 등 타깃별 구성)",
+      "입학 설명회 영상 및 인쇄물 디자인 제작 참여",
+      "학생지원팀과 협업하여 학과별 콘텐츠 기획 및 홍보전략 수립"
     ],
   },
   {
     id: "peer-instructor",
-    title: "Peer Instructor - Presentation & Media Skills",
-    titleKR: "동료 강사 - 프레젠테이션 및 미디어 스킬",
+    title: "Presentation Skills Instructor",
+    titleKR: "고등학교 교내 PPT 강사",
     categories: ["Teaching", "Presentation Design"],
-    year: "Apr 2017 - Dec 2017",
+    year: "2018 (1 semester)",
     company: "Gwangyang Jecheol High School",
+    companyKR: "광양제철고등학교",
     location: "Gwangyang, South Korea",
-    description: "Focused on teaching presentation and media skills through a custom-developed course.",
-    descriptionKR: "맞춤 개발된 과정을 통해 프레젠테이션 및 미디어 스킬 교육에 집중했습니다.",
+    description: "Operated self-developed presentation and media production curriculum.",
+    descriptionKR: "직접 개발한 발표·미디어 제작 커리큘럼 수업을 운영했습니다.",
     responsibilities: [
-      "Created and implemented a tailored PowerPoint and media production curriculum for fellow students",
-      "Maintained full attendance each month, leading to the course's expansion into a full semester due to popularity",
-      "Enhanced students' abilities in practical presentation and visual communication techniques"
+      "Operated self-developed presentation and media production curriculum classes",
+      "Experienced PPT template creation and sales, extended to regular course due to student demand",
+      "Achieved early capacity (30 students) every month with high satisfaction, enabling continuous operation"
     ],
     responsibilitiesKR: [
-      "동료 학생들을 위한 맞춤형 PowerPoint 및 미디어 제작 커리큘럼 제작 및 실행",
-      "매월 100% 출석률 유지, 인기로 인해 과정이 전체 학기로 확장됨",
-      "실용적인 프레젠테이션 및 시각적 커뮤니케이션 기법에서 학생들의 능력 향상"
+      "직접 개발한 발표·미디어 제작 커리큘럼 수업 운영",
+      "PPT 템플릿 제작 및 판매 경험, 학생 수요에 따라 정규과정으로 연장",
+      "매월 정원 조기 마감(30명), 높은 만족도로 지속 운영"
     ],
   },
 ];
@@ -220,10 +236,15 @@ export default async function WorkDetailPage({ params }: { params: Promise<{ id:
             />
           </div>
 
-          {/* Title */}
-          <h1 className="text-4xl md:text-6xl font-light mb-8">
-            {experience.title}
-          </h1>
+          {/* Title - Bilingual */}
+          <div className="mb-8">
+            <h1 className="text-4xl md:text-6xl font-light mb-3">
+              {experience.title}
+            </h1>
+            <p className="text-2xl md:text-3xl text-zinc-600 dark:text-zinc-400">
+              {experience.titleKR}
+            </p>
+          </div>
 
           {/* Meta Info */}
           <div className="grid md:grid-cols-3 gap-8 mb-16 pb-16 border-b border-zinc-200 dark:border-zinc-800">
@@ -247,7 +268,8 @@ export default async function WorkDetailPage({ params }: { params: Promise<{ id:
             <div>
               <p className="text-sm text-zinc-500 mb-2">Company</p>
               <p className="text-lg">{experience.company}</p>
-              <p className="text-sm text-zinc-400">{experience.location}</p>
+              <p className="text-base text-zinc-600 dark:text-zinc-400">{experience.companyKR}</p>
+              <p className="text-sm text-zinc-400 mt-1">{experience.location}</p>
             </div>
           </div>
 
@@ -268,6 +290,7 @@ export default async function WorkDetailPage({ params }: { params: Promise<{ id:
             <div className="space-y-8">
               {/* English */}
               <div>
+                <p className="text-sm text-zinc-500 mb-4">English</p>
                 <ul className="space-y-3">
                   {experience.responsibilities.map((item, idx) => (
                     <li key={idx} className="flex gap-3 text-zinc-600 dark:text-zinc-400">
@@ -303,7 +326,8 @@ export default async function WorkDetailPage({ params }: { params: Promise<{ id:
               <div>
                 <p className="text-sm text-zinc-500 mb-1">Next experience</p>
                 <p className="text-2xl font-light">{nextExperience.title}</p>
-                <p className="text-sm text-zinc-500">
+                <p className="text-lg text-zinc-600 dark:text-zinc-400">{nextExperience.titleKR}</p>
+                <p className="text-sm text-zinc-500 mt-1">
                   {nextExperience.categories.join(" · ")}
                 </p>
               </div>

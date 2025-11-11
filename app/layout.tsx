@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Outfit, IBM_Plex_Sans_KR } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import BouncyCursor from "@/components/BouncyCursor";
 import ChatbotWidget from "@/components/ChatbotWidget";
@@ -11,13 +11,6 @@ const outfit = Outfit({
   variable: "--font-display",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-});
-
-// IBM Plex Sans KR for Korean
-const ibmPlexSansKR = IBM_Plex_Sans_KR({
-  variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -75,8 +68,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        <link
+          rel="stylesheet"
+          as="style"
+          crossOrigin="anonymous"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+        />
+      </head>
       <body
-        className={`${outfit.variable} ${ibmPlexSansKR.variable} antialiased`}
+        className={`${outfit.variable} antialiased`}
       >
         <LocaleProvider>
           <SmoothScroll>
